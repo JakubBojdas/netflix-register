@@ -1,0 +1,74 @@
+.register-form {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-form form {
+    max-width: fit-content;
+    min-width: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register-form .form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.register-form p {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    height: 15px;
+    color: red;
+}
+
+.register-form label {
+    margin-bottom: 5px;
+}
+
+.register-form label::first-letter {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.register-form input {
+    padding: 5px;
+    border: 2px solid lightgray;
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.082);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0, 0.082);
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0, 0.082);
+    height: 25px;
+    min-width: 250px;
+}
+
+.register-form input:focus {
+    border: 2px solid #FF9900;
+    outline: none;
+}
+
+.register-form button {
+    background: #FF9900;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+.register-form button:hover {
+    background: rgb(228, 137, 1);
+}
+
+.register-form button::first-letter {
+    text-transform: uppercase;
+}
